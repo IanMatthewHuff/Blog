@@ -18,7 +18,7 @@ VS Code is my editor of choice (full disclosure, I work on the Microsoft Python 
 
 The integration seems good here so far. I like that the effort was taken to enforce even on the smaller conventions, like the new project command making sure to validate that Flutter naming conventions were being followed before creating.
 
-[Flutter naming warning](https://github.com/IanMatthewHuff/Blog/blob/2b2b3503ed2c71e13ecf456b4ee05d11d90c7edf/HelloFlutter1/Images/NameWarning.PNG)
+![Flutter naming warning](https://github.com/IanMatthewHuff/Blog/blob/2b2b3503ed2c71e13ecf456b4ee05d11d90c7edf/HelloFlutter1/Images/NameWarning.PNG)
 
 ### Android SDK / Emulator setup
 
@@ -26,4 +26,4 @@ In a previous career step at Microsoft I used to maintain the Visual Studio C++ 
 
 ### Hello Flutter
 
-[Running emulator](https://github.com/IanMatthewHuff/Blog/blob/a2107e10826a05b7bdb116c584be200390adfb13/HelloFlutter1/Images/RunningEmulator.png)
+![Running emulator](https://github.com/IanMatthewHuff/Blog/blob/a2107e10826a05b7bdb116c584be200390adfb13/HelloFlutter1/Images/RunningEmulator.png)
