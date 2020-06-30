@@ -22,6 +22,8 @@ The integration seems good here so far. I like that the effort was taken to enfo
 
 ### Android SDK / Emulator setup
 
-In a previous career step at Microsoft I used to maintain the Visual Studio C++ tooling for cross-platform mobile development. At the stage that it was at the product was pretty well in place, so much of the work involved was around getting the correct SDKs and emulators installed to keep up with Android releases. It was quite a hassle at times, and my take away from this was that I wanted to rely on Google handling as much as possible. So to get the SDKs and an emulator installed I went with installing Android Studio and using the SDK and AVD manager with that to get things installed.
+In a previous career step at Microsoft I used to maintain the Visual Studio C++ tooling for cross-platform mobile development. At the stage that it was at the product was pretty well in place, so much of the work involved was around getting the correct SDKs and emulators installed to keep up with Android releases. It was quite a hassle at times, and my take away from this was that I wanted to rely on Google handling as much as possible. So to get the SDKs and an emulator installed I went with installing Android Studio and using the SDK and AVD manager with that to get things installed. With that it was easy enough to get the emulator up and running with the sample application.
 
 ### Hello Flutter
+
+[Running emulator](https://github.com/IanMatthewHuff/Blog/blob/a2107e10826a05b7bdb116c584be200390adfb13/HelloFlutter1/Images/RunningEmulator.png)
