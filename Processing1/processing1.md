@@ -1,8 +1,8 @@
-## Getting started with Processing.py and Visual Studio Code
+# Getting started with Processing.py and Visual Studio Code
 
 Quick guide here to getting started with Processing.py and how to set it up for usage with Visual Studio Code.
 
-### Installation
+## Installation
 
 For the first step, go to the processing webpage and download it for your platform.
 
@@ -16,7 +16,7 @@ After that install a quick "hello ellipse" test to make sure that everything was
 
 ![Basic Working](https://raw.githubusercontent.com/IanMatthewHuff/Blog/master/Processing1/Images/EllipseTest.PNG)
 
-### Processing on the command line
+## Processing on the command line
 
 To move away from using the Processing IDE that is bundled with Processing (PDE) and to using VS Code I'm starting with the instructions here:
 
@@ -26,6 +26,10 @@ The sad part of this process is that it involves installing Java on my system. E
 
 [Java 8 Direct Download](https://sites.google.com/view/java-se-download-url-converter)
 
-Command line instructions all seem to go pretty smoothly, I did notice that before just creating my own test app I tried to run one of the existing samples and it didn't run properly (Basics\Color\WaveGradient.py) so I plan to go back to check that out as time allows.
+Command line instructions all seem to go pretty smoothly, I did notice that before just creating my own test app I tried to run one of the existing samples and it didn't run properly so I plan to go back to check that out as time allows.
 
 ![Command Line Working](https://raw.githubusercontent.com/IanMatthewHuff/Blog/master/Processing1/Images/MouseFollowCommandLine.png)
+
+The last part was to be able to launch my processing sketches from VS Code. To do this I used the Code Runner extension and the instructions found [here](https://discourse.processing.org/t/tutorial-running-python-mode-in-vscode/7716).
+
+![VS Code Launch](https://raw.githubusercontent.com/IanMatthewHuff/Blog/master/Processing1/Images/VSCode.PNG)
