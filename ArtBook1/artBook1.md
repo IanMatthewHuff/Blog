@@ -20,8 +20,8 @@ When in Proposed API things can change quickly. So sometimes sample will get out
 
 At this point I had enough to run and compile on, so I created a quick little JSON file format based on the sample and debugged the extension. Stuck a quick BP in the content provider load function to make sure that I was hitting the right spot.
 
-![Debugging ContentProvider](https://raw.githubusercontent.com/IanMatthewHuff/Blog/master/ArtBook1/Images/contentProviderBP.PNG)
-![File Open](https://raw.githubusercontent.com/IanMatthewHuff/Blog/master/ArtBook1/Images/notebookOpen.PNG)
+![Debugging ContentProvider](https://raw.githubusercontent.com/IanMatthewHuff/Blog/main/ArtBook1/Images/contentProviderBP.PNG)
+![File Open](https://raw.githubusercontent.com/IanMatthewHuff/Blog/main/ArtBook1/Images/notebookOpen.PNG)
 
 Note that the notebook API does lots of stuff for me already. Markdown cells show markdown content, and since I set the cell language as Python in the content provider each code cell is basically a small instance of the VS Code editor with a Python file.
 
@@ -35,4 +35,4 @@ Since the ContentProvider and NotebookKernel are disassociated at this point we 
 
 At this point when we debug now and hit the run button on a code cell we can see that the executeCell function in our ArtBookKernel is getting hit.
 
-![Kernel BP Hit](https://raw.githubusercontent.com/IanMatthewHuff/Blog/master/ArtBook1/Images/notebookKernelBP.PNG)
+![Kernel BP Hit](https://raw.githubusercontent.com/IanMatthewHuff/Blog/main/ArtBook1/Images/notebookKernelBP.PNG)
